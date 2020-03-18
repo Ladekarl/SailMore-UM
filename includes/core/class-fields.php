@@ -1478,11 +1478,11 @@ if ( ! class_exists( 'um\core\Fields' ) ) {
 					if (!isset( $array['min_width'] )) $array['min_width'] = '';
 					if (!isset( $array['min_height'] )) $array['min_height'] = '';
 
-					if ($array['min_width'] == '' && $array['crop'] == 1) $array['min_width'] = 600;
-					if ($array['min_height'] == '' && $array['crop'] == 1) $array['min_height'] = 600;
+					if ($array['min_width'] == '' && $array['crop'] == 1) $array['min_width'] = 100;
+					if ($array['min_height'] == '' && $array['crop'] == 1) $array['min_height'] = 100;
 
-					if ($array['min_width'] == '' && $array['crop'] == 3) $array['min_width'] = 600;
-					if ($array['min_height'] == '' && $array['crop'] == 3) $array['min_height'] = 600;
+					if ($array['min_width'] == '' && $array['crop'] == 3) $array['min_width'] = 100;
+					if ($array['min_height'] == '' && $array['crop'] == 3) $array['min_height'] = 100;
 
 					if (!isset( $array['invalid_image'] )) $array['invalid_image'] = __( "Please upload a valid image!", 'ultimate-member' );
 					if (!isset( $array['allowed_types'] )) {
